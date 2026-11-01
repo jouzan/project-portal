@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ee">
+  <meta name="description" content="Explore Jones's collection of web tools for aviation, finance, and cloud. One place to launch every project.">
+  <title>Jones / The project portal</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Jones portal home"><span class="brand-mark">j<span>.</span></span><span>JONES<span class="brand-divider"> / </span>PROJECT PORTAL</span></a>
+    <a class="github-link" href="https://github.com/jouzan/" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow"><span class="status-dot"></span> THE PERSONAL TOOLKIT</p><h1 id="page-title">A few ideas.<br>A world of <em>possibilities.</em></h1><p class="intro-copy">From the flight deck to the cloud. A collection of things I’ve built<br class="desktop-break"> to make planning, calculating, and exploring a little easier.</p></div>
+      <div class="intro-note"><span class="orbit" aria-hidden="true">✳</span><p>Built out of curiosity.<br>Ready when you are.</p><span class="note-line"></span><span class="mono">07 PROJECTS & COUNTING</span></div>
+    </section>
+    <section class="collection" aria-labelledby="collection-title">
+      <div class="collection-top"><h2 id="collection-title">Explore the collection <span id="count">07</span></h2><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Find a project" aria-label="Search projects"></label></div>
+      <div class="filter-row"><div class="filters" role="group" aria-label="Filter projects by category"><button class="filter active" data-filter="All" aria-pressed="true">All projects <span>7</span></button><button class="filter" data-filter="Aviation" aria-pressed="false">Aviation <span>2</span></button><button class="filter" data-filter="Finance" aria-pressed="false">Finance <span>3</span></button><button class="filter" data-filter="Cloud" aria-pressed="false">Cloud <span>2</span></button></div><span class="collection-hint">A useful idea is one click away <span aria-hidden="true">↙</span></span></div>
+      <div class="project-grid" id="projects">
+        <article class="project featured" data-category="Cloud" data-search="Aurora backup storage calculator AWS database cloud">
+          <div class="featured-copy"><div class="card-meta"><span class="category cloud">CLOUD</span><span class="project-number">01 / 07</span></div><h3>Aurora Calculator</h3><p>Understand your Aurora backup storage. Explore how volume growth, change records, and snapshots shape usage.</p><a class="launch primary" href="https://jouzan.github.io/aurora-calc/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: Aurora Calculator</span></a></div>
+          <div class="aurora-art" aria-hidden="true"><div class="art-label">A LITTLE CLARITY, ABOVE THE WATERLINE.</div><div class="waterline"><span>BACKUP STORAGE</span><i></i></div><div class="storage-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><div class="art-bottom"><span>VOLUME</span><span>CHANGE</span><span>SNAPSHOTS</span></div></div>
+        </article>
+        <article class="project" data-category="Aviation" data-search="Crosswind quick calc airport runway wind aviation">
+          <div class="card-meta"><span class="icon aviation" aria-hidden="true">↗</span><span class="project-number">02 / 07</span></div><span class="category aviation">AVIATION</span><h3>Crosswind Quick Calc</h3><p>Get an airport wind briefing and see runway conditions for your planning window.</p><a class="launch" href="https://jouzan.github.io/CrossWindQuickCalc/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: Crosswind Quick Calc</span></a>
+        </article>
+        <article class="project" data-category="Finance" data-search="The Markets stock S&P 500 dashboard finance">
+          <div class="card-meta"><span class="icon finance" aria-hidden="true">▥</span><span class="project-number">03 / 07</span></div><span class="category finance">FINANCE</span><h3>The Markets</h3><p>Explore an S&P 500 snapshot, its ten-year journey, and the index’s 50 largest companies.</p><a class="launch" href="https://jouzan.github.io/themarkets/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: The Markets</span></a>
+        </article>
+        <article class="project" data-category="Finance" data-search="Freedom retirement calculator investment wealth finance">
+          <div class="card-meta"><span class="icon finance" aria-hidden="true">◷</span><span class="project-number">04 / 07</span></div><span class="category finance">FINANCE</span><h3>Freedom Retirement</h3><p>Map your next chapter. Explore retirement timing, investment projections, and your wealth journey.</p><a class="launch" href="https://jouzan.github.io/freedom-retirement-calculator/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: Freedom Retirement</span></a>
+        </article>
+        <article class="project" data-category="Aviation" data-search="VFR flight diversion planner route airport aviation">
+          <div class="card-meta"><span class="icon aviation" aria-hidden="true">⌁</span><span class="project-number">05 / 07</span></div><span class="category aviation">AVIATION</span><h3>VFR Flight Planner</h3><p>Plan a direct route, find nearby diversion airports, and make quick distance checks.</p><a class="launch" href="https://jouzan.github.io/flight-planner/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: VFR Flight Planner</span></a>
+        </article>
+        <article class="project" data-category="Cloud" data-search="AWS security checklist posture assessment compliance cloud">
+          <div class="card-meta"><span class="icon cloud" aria-hidden="true">✓</span><span class="project-number">06 / 07</span></div><span class="category cloud">CLOUD</span><h3>AWS Security Checklist</h3><p>Track security controls across accounts, data, networks, and applications in one checklist.</p><a class="launch" href="https://jouzan.github.io/aws-security-checklist/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: AWS Security Checklist</span></a>
+        </article>
+        <article class="project" data-category="Finance" data-search="Wealth planner retirement calc savings income expenses finance">
+          <div class="card-meta"><span class="icon finance" aria-hidden="true">↗</span><span class="project-number">07 / 07</span></div><span class="category finance">FINANCE</span><h3>Wealth Planner</h3><p>Bring income, expenses, savings, and retirement drawdowns together to explore your plan.</p><a class="launch" href="https://jouzan.github.io/retirement-calc/">Open website <span aria-hidden="true">↗</span><span class="sr-only">: Wealth Planner</span></a>
+        </article>
+      </div>
+      <p id="empty" class="empty" hidden>No projects found. Try another search or category.</p>
+      <p id="results-status" class="sr-only" aria-live="polite" role="status">7 projects shown</p>
+    </section>
+  </main>
+  <footer class="wrap"><a class="footer-name" href="https://github.com/jouzan/" target="_blank" rel="noopener noreferrer">JONES <span> / </span> A work in progress, by design.</a><span>Made with curiosity. Hosted on GitHub Pages. <span aria-hidden="true">↗</span></span></footer>
+</body>
+</html>
