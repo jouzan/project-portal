@@ -4,7 +4,7 @@ A responsive, single-page launchpad for the websites built by [jouzan](https://g
 
 **Live website:** https://jouzan.github.io/project-portal/
 
-Includes Aurora Calculator, Crosswind Quick Calc, The Markets, Freedom Retirement, VFR Flight Planner, AWS Security Checklist, and Wealth Planner. Search by project name or filter by Aviation, Finance, and Cloud. Each project's **Open website** link goes directly to the original site in the same tab.
+Includes Aurora Calculator, Crosswind Quick Calc, The Markets, Freedom Retirement, VFR Flight Planner, and AWS Security Checklist. Search by project name or filter by Aviation, Finance, and Cloud. Each project's **Open website** link goes directly to the original site in the same tab.
 
 ## Preview locally
 
